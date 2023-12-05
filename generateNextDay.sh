@@ -12,6 +12,9 @@ touch "src/day$newDayNum/Day${newDayNum}_2_test.txt"
 cat <<EOL > "$PWD/src/day$newDayNum/Day$newDayNum.kt"
 package day${newDayNum}
 
+import println
+import readInput
+
 fun main() {
     fun part1(input: List<String>): Int {
         return input.size
